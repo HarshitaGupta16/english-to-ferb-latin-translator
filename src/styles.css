@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+
+:root {
+  --primary-color: #d97706;
+}
+
+body {
+  /* font-family: "Cabin", sans-serif; */
+  font-family: "Montserrat Alternates", sans-serif;
+  text-align: center;
+  background-image: url("https://www.looper.com/img/gallery/the-untold-truth-of-phineas-and-ferb/intro-1566593364.jpg");
+  margin: 0;
+  background-position-y: 100px;
+  /* background-repeat: no-repeat; */
+}
+
+header {
+  background: var(--primary-color);
+  padding: 30px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: -830px;
+  background: wheat;
+  display: inline;
+  /* width: 500px; */
+}
+
+textarea {
+  font-size: 100%;
+  width: 50%;
+  height: 15vh;
+  display: block;
+  margin-left: 22%;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1mm ridge #65a30d;
+  margin-top: 10px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+#output {
+  margin-top: 25px;
+}
+
+button {
+  font-family: "Montserrat Alternates", sans-serif;
+  background: var(--primary-color);
+  padding: 15px 30px;
+  border-radius: 1rem;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.app-description {
+  font-weight: bold;
+  color: black;
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+  background: wheat;
+  width: 40%;
+  margin-left: 30%;
+}
+
+footer {
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  /* padding: 1rem; */
+  margin-top: 1rem;
+  position: absolute;
+  bottom: 0;
+  background: var(--primary-color);
+}
+
+.footer-header {
+  /* margin: 10% auto ; */
+  font-weight: bold;
+  font-size: larger;
+  padding: 0.5rem;
+  /* display: inline; */
+  color: white;
+}
+
+.button-block {
+  width: 600px;
+  /* margin-top: 40px; */
+  margin: auto;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+  font-weight: bolder;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  /* color: white; */
+}
+
+li i {
+  color: black;
+}
+
+.list-item-inline a {
+  display: block;
+  padding: 10px;
+  position: relative;
+  transform: perspective(1000px) translate(0, 0);
+  transition: all 0.5s ease-in-out;
+}
+
+/* .list-item-inline a::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  transform: rotate(0deg) skewX(-45deg);
+  background: var(--primary-color);
+  transform: rotate(45deg) scewY(-45deg);
+} */
+
+.list-item-inline a:hover {
+  transform: perspective(1000px) translate(20px, -20px);
+  box-shadow: -50px 50px 30px rgba(0, 0, 0, 0.5);
+}
